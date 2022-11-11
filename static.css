@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+   
+}
+.container{
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    margin: auto;
+    background-color: aquamarine;
+    background-image: url("groupDiscussion.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    
+}
+.menu-bar{
+    width: 100%;
+    height: 40px;
+    
+}
+
+.rightsubdiv{
+    float: right;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-top: 15px;
+    padding-right: 38px;
+}
+.rightsubdiv a{
+    text-decoration: none;
+    color: darkolivegreen;
+    font-size: 25px;
+    font-family: monospace;
+    padding-right: 15px;
+
+
+}
+
+.cards span{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: monospace;
+}
+.child span{
+    float: left;
+    text-align: center;
+    color: rgb(136, 228, 93);
+    font-size: 35px;
+    font-family: monospace;
+    padding-top: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+.child span:nth-child(5){
+    color: rgb(245, 48, 48);
+}
+.child span:nth-child(6){
+    color: rgb(245, 48, 48);
+}
+.child span:nth-child(7){
+    color: rgb(245, 48, 48);
+}
+.child span:nth-child(8){
+    color: rgb(245, 48, 48);
+}
+.child span:nth-child(9){
+    color: rgb(245, 48, 48);
+}
+.child span:nth-child(10){
+    color: rgb(245, 48, 48);
+}
+
+.card-section{
+    background-color:antiquewhite;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+.firstcards,.secondcards,.thirdcards,.fourthcards{
+    width: 230px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    border-radius: 13px;
+    margin-bottom: 10px;
+   
+}
+.firstcards{
+    width: 230px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    
+    margin-bottom: 10px;
+    background-image: url("download.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 13px;
+    
+}
+.secondcards{
+    width: 230px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+  
+    margin-bottom: 10px;
+    background-image: url("images1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 13px;
+}
+.thirdcards{
+    width: 230px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    
+    margin-bottom: 10px;
+    background-image: url("download2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ 
+}
+.fourthcards{
+    width: 230px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    background-image: url("mongodb.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#button{
+    background-color: darkslategrey;
+    color: white;
+    font-weight: 200;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(54, 52, 48, 0.548);
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: monospace;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
